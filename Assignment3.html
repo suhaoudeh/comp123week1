@@ -68,6 +68,27 @@
         .map-container {
             margin-top: 30px;
         }
+        h2 {
+            color: #2b3d76;
+        }
+         .header a:hover {
+            text-decoration: underline;
+        }
+         table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #cccccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #198c7a;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -80,7 +101,8 @@
     </div>
     <div class="container">
         <h2>Lavazza Coffee</h2>
-       <h3 ></h3><a href="index.html" class="home-link">Home Page </a></h3>
+       <h3> <a href="index.html" class="home-link">Home Page </a></h3>
+        
          <!-- Canada Map with Hotspots -->
         <div class="map-container">
             <h2>Find Local Distributors in Canada</h2>
@@ -94,10 +116,55 @@
                 <area shape="poly" coords="400,180,420,160,440,180,430,200,410,190" href="https://www.example.com/quebec-distributors" alt="Quebec" />
             </map>
         </div>
-        <p>Experience the rich and aromatic flavors of Lavazza Coffee, the Italian coffee brand known for its quality and excellence. Our coffee blends are crafted from the finest beans sourced from around the world.</p>
-        <p>Indulge in the authentic taste of Italy with every cup. Whether you prefer espresso, cappuccino, or filter coffee, Lavazza offers a wide range of products to suit your taste.</p>
-        <img class="product" src="https://example.com/lavazza-coffee.jpg" alt="Lavazza Coffee" />
-        <p><a href="#" class="button">Shop Now</a></p>
+
+        <! table of the product --> 
+        
+        <div class="content">
+            <img src="product.jpg" alt="Omega Juicer 4000" class="product-image">
+            <h3>Lavazza Coffee </h3>
+            <p> Experience the rich and aromatic flavors of Lavazza Coffee, the Italian coffee brand known for its quality and excellence.
+    Our coffee blends are crafted from the finest beans sourced from around the world.
+    Indulge in the authentic taste of Italy with every cup. Whether you prefer espresso, cappuccino, or filter coffee,
+    Lavazza offers a wide range of products to suit your taste.</p>
+            <ul>
+                <li>Stainless steel blade and basket</li>
+                <li>1/3 horsepower</li>
+                <li>5200 RPM</li>
+                <li>15-year warranty</li>
+                <li>250 watts</li>
+            </ul>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Model 2000 (Product #24341)</td>
+                        <td>$149.95</td>
+                    </tr>
+                    <tr>
+                        <td>Model 2200 (Product #24342)</td>
+                        <td>$169.95</td>
+                    </tr>
+                    <tr>
+                        <td>Model 3000 (Product #24356)</td>
+                        <td>$209.95</td>
+                    </tr>
+                     <tr>
+                        <td>Model 4000 (Product #24360)</td>
+                        <td>$249.95</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+            
+   
+    
     </div>
 </body>
 </html>
