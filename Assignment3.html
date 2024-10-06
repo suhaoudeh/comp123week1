@@ -65,10 +65,13 @@
         .button:hover {
             background-color: #e74c3c; /* Lighter Red */
         }
+        .map-container {
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
-    <a href="index.html" class="home-link">Home Page </a>
+    
     <div class="banner">
         <a href="https://www.lavazza.ca/en" target="_blank">
             <img src="logo-lavazza.png" alt="Lavazza Logo" />
@@ -77,6 +80,20 @@
     </div>
     <div class="container">
         <h2>Lavazza Coffee</h2>
+       <h3 ></h3><a href="index.html" class="home-link">Home Page </a></h3>
+         <!-- Canada Map with Hotspots -->
+        <div class="map-container">
+            <h2>Find Local Distributors in Canada</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Blank_map_of_Canada.svg" usemap="#canada-map" alt="Map of Canada" width="600" />
+            <map name="canada-map">
+                <!-- Alberta -->
+                <area shape="poly" coords="160,150,180,140,200,160,190,180,160,190,150,170" href="https://www.example.com/alberta-distributors" alt="Alberta" />
+                <!-- Ontario -->
+                <area shape="poly" coords="350,220,370,210,380,230,370,250,350,240,340,220" href="https://www.example.com/ontario-distributors" alt="Ontario" />
+                <!-- Quebec -->
+                <area shape="poly" coords="400,180,420,160,440,180,430,200,410,190" href="https://www.example.com/quebec-distributors" alt="Quebec" />
+            </map>
+        </div>
         <p>Experience the rich and aromatic flavors of Lavazza Coffee, the Italian coffee brand known for its quality and excellence. Our coffee blends are crafted from the finest beans sourced from around the world.</p>
         <p>Indulge in the authentic taste of Italy with every cup. Whether you prefer espresso, cappuccino, or filter coffee, Lavazza offers a wide range of products to suit your taste.</p>
         <img class="product" src="https://example.com/lavazza-coffee.jpg" alt="Lavazza Coffee" />
