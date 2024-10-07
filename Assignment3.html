@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavazza Coffee - Experience the Italian Excellence</title>
+    <title>Lavazza Coffee </title>
     <style>
+   
         body {
             margin: 0;
             padding: 0;
@@ -12,20 +13,20 @@
             background-color: #f4f4f4;
             display: flex;
             flex-direction: column;
-            align-items: center;
-        }
+                   }
         .banner {
             width: 100%;
-            max-width: 980px;
+           
             background-color: #c0392b; /* Lavazza Red */
             color: #ffffff;
             text-align: center;
-            padding: 20px 0;
+            padding: 10px 0;
             position: relative;
         }
         .banner img {
             max-width: 100px; /* Size for the logo */
             margin: 10px 0;
+text-align: center;
         }
         .banner h1 {
             margin: 10px 0;
@@ -37,8 +38,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             border-radius: 8px;
-            text-align: center;
-            margin-top: 20px;
+                  margin-top: 20px;
         }
         p {
             color: #34495e;
@@ -74,123 +74,103 @@
          .header a:hover {
             text-decoration: underline;
         }
-         table {
-            width: 100%;
+table {
             border-collapse: collapse;
+            width: 900px;
+            height: 300px;
+            margin: 20px;
+            border: 0px solid #4CAF50;
         }
-     
+td {
+            text-align: left;
+            vertical-align: middle;
+            font-size: 20px;
+            color: #333;
+        }
+th {
+            background-color: #198c7a;
+            color: white;
+text-align: left;
+        }
+ .custom-row {
+            height: 100px; 
+            width: 900px;
+
+        }     
+.custom-cell {
+            width: 250px;
+            
+        }       
     </style>
 </head>
 <body>
-    
-    <div class="banner">
+<div class="banner">
         <a href="https://www.lavazza.ca/en" target="_blank">
             <img src="logo-lavazza.png" alt="Lavazza Logo" />
         </a>
         <h1>Discover the Rich Flavor of Lavazza Coffee</h1>
     </div>
+
     <div class="container">
-        <h2>Lavazza Coffee</h2>
-       <h3> <a href="index.html" class="home-link">Home Page </a></h3>
-        
-         <!-- Canada Map with Hotspots -->
-        <div class="map-container">
-            <h2>Find Local Distributors in Canada</h2>
-            <img src="map of canada-imae.jpg" usemap="#canada-map" alt="Map of Canada" width="600" />
-            <map name="canada-map">
-                <!-- Alberta -->
-                <area shape="poly" coords="160,150,180,140,200,160,190,180,160,190,150,170" href="  https://maps.app.goo.gl/uYhe7aR" />
-                <!-- Ontario -->
-                <area shape="poly" coords="350,220,370,210,380,230,370,250,350,240,340,220" href="https://maps.app.goo.gl/unqnwmutj77n7UW67" alt="Ontario" />
-                <!-- Quebec -->
-                <area shape="poly" coords="400,180,420,160,440,180,430,200,410,190" href="https://www.example.com/quebec-distributors" alt="Quebec" />
-            </map>
+        <div class="header">
+            
+            
         </div>
 
-        <! table of the product --> 
-        
+
         <div class="content">
-            <img src="lavazza.jpg" alt="Lavazza Coffee " class="product-image">
-            <h3>Lavazza Coffee </h3>
-            <p> Experience the rich and aromatic flavors of Lavazza Coffee, the Italian coffee brand known for its quality and excellence.
-    Our coffee blends are crafted from the finest beans sourced from around the world.
-    Indulge in the authentic taste of Italy with every cup. Whether you prefer espresso, cappuccino, or filter coffee,
-    Lavazza offers a wide range of products to suit your taste.</p>
-            <ul>
+<table border ='0'>
+             <tr><td class="custom-cell ">
+<h2>Arabica Coffee </h2>
+<td><p align="right"> <a href="https://suhaoudeh.github.io/comp123week1/index.html" class="home-link" >Home Page</a></p>
+<tr><td>
+<img src="lavazza.jpg" alt="Lavazza Coffee " class="product-image">
+<br>  <a href="Details.html">View Larger Picture </a>
+
+           </td>
+
+      <td>  
+ 
+<h3>Lavazza Coffee </h3>
+<p>Experience the rich and aromatic flavors of Lavazza Coffee, the Italian coffee brand known for its quality and excellence. Our coffee blends are crafted from the finest beans sourced from around the world. Indulge in the authentic taste of Italy with every cup. Whether you prefer espresso, cappuccino, or filter coffee, Lavazza offers a wide range of products to suit your taste.
+</p>
+          <tr><td> <td> <ul>
                 <li>Stainless steel blade and basket</li>
                 <li>1/3 horsepower</li>
                 <li>5200 RPM</li>
                 <li>15-year warranty</li>
                 <li>250 watts</li>
-            </ul>
-        </div>
-        <div class="table-container">
+            </ul></td>
+</tr>
+        
+</table>
             <table>
                 <thead>
                     <tr>
-                        <th>Description</th>
+                        <th >Description</th>
                         <th>Price</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Model 2000 (Product #24341)</td>
-                        <td>$149.95</td>
+                        <td>Lavazza Espresso Barista Gran Crema(2.2lbs/1KG) </td>
+                        <td>$38.95</td>
                     </tr>
                     <tr>
-                        <td>Model 2200 (Product #24342)</td>
-                        <td>$169.95</td>
+                        <td bgcolor="#D3D3D3">Dark Roast Whole Bean (1 KG)</td>
+                        <td bgcolor="#D3D3D3">$19.95</td>
                     </tr>
                     <tr>
-                        <td>Model 3000 (Product #24356)</td>
-                        <td>$209.95</td>
+                        <td>Super Crema Espresso Whole Bean(2.2-Pound Bag)</td>
+                        <td>$79.99</td>
                     </tr>
-                     <tr>
-                        <td>Model 4000 (Product #24360)</td>
-                        <td>$249.95</td>
+                    <tr>
+                        <td bgcolor="#D3D3D3">Espresso Coffee Beans (2.2-Pound)</td>
+                        <td bgcolor="#D3D3D3">$39.99</td>
                     </tr>
                 </tbody>
             </table>
-  
-
-    <table>
-        <thead>
-            <tr>
-                <th>Lavazza Coffee </th>
-                <th>Column 2</th>
-                <th>Column 3</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="lavazza.jpg" alt="Lavazza Coffee " class="product-image">
-                    View Larger Picture
-                
-                </td>
-                <td> Experience the rich and aromatic flavors of Lavazza Coffee, the Italian coffee brand known for its quality and excellence.
-    Our coffee blends are crafted from the finest beans sourced from around the world.
-    Indulge in the authentic taste of Italy with every cup. Whether you prefer espresso, cappuccino, or filter coffee,
-    Lavazza offers a wide range of products to suit your taste.
-                </td>  
-            </tr>
-            <tr>
-                <td>Row 2, Column 1</td>
-                <td>Row 2, Column 2</td>
-                <td>Row 2, Column 3</td>
-            </tr>
-            <tr>
-                <td>Row 3, Column 1</td>
-                <td>Row 3, Column 2</td>
-                <td>Row 3, Column 3</td>
-            </tr>
-        </tbody>
-    </table>
         </div>
-            
-   
-    
     </div>
-      </style>
-</head>
 </body>
 </html>
