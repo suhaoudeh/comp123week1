@@ -33,24 +33,38 @@ text-align: center;
             font-size: 24px;
         }
         .container {
-            width: 950px;
-            background-color: #fffjff;
+            width: 980px;
+            background-color: #ffffff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             border-radius: 8px;
-            
                   margin-top: 20px;
         }
         p {
-           color: #34495e;
+            color: #34495e;
             line-height: 1.6;
-            margin: 30px 0;
-
+            margin: 10px 0;
         }
-        .custom-cell {
-            width: 250px;
-            
-        }   
+        img.product {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #c0392b; /* Lavazza Red */
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #e74c3c; /* Lighter Red */
+        }
         .map-container {
             margin-top: 30px;
         }
@@ -70,7 +84,7 @@ table {
 td {
             text-align: left;
             vertical-align: middle;
-            font-size: 15px;
+            font-size: 20px;
             color: #333;
         }
 th {
@@ -80,9 +94,13 @@ text-align: left;
         }
  .custom-row {
             height: 100px; 
-            width: 100px;
+            width: 900px;
 
-        }          
+        }     
+.custom-cell {
+            width: 250px;
+            
+        }       
     </style>
 </head>
 <body>
@@ -95,22 +113,45 @@ text-align: left;
 
     <div class="container">
         <div class="header">
+            
+            
+        </div>
+<!-- Canada Map with Hotspots -->
+    <img src="map of canada-imae.jpg" alt="Canada Map" usemap="#canada-map" width="600" height="400">
+
+    <!-- Define the Hotspots on the Map -->
+    <map name="canada-map">
+        <!-- Ontario -->
+        <area shape="poly" coords="320,150, 340,180, 370,200, 400,180, 380,150, 340,140" 
+              href="https://ontario-distributor.com" alt="Ontario" title="Ontario Distributor">
+        
+        <!-- British Columbia -->
+        <area shape="poly" coords="50,200, 70,230, 90,250, 120,230, 100,190" 
+              href="https://bc-distributor.com" alt="British Columbia" title="BC Distributor">
+        
+        <!-- Quebec -->
+        <area shape="poly" coords="400,120, 420,150, 450,160, 480,140, 460,110, 430,100" 
+              href="https://quebec-distributor.com" alt="Quebec" title="Quebec Distributor">
+    </map>
+
+
 
 
         <div class="content">
-<table border ='1'>
+<table border ='0'>
              <tr><td class="custom-cell ">
 <h2>Arabica Coffee </h2>
 <td><p align="right"> <a href="https://suhaoudeh.github.io/comp123week1/index.html" class="home-link" >Home Page</a></p>
 <tr><td>
- <img src="lavazza.jpg" alt="Lavazza Coffee ">
-<br>  <a href="Details.html">View Larger Picture </a> </td>
- <td >  
-<h3>Lavazza Coffee </h3>       
-<p>Experience the rich and aromatic flavors of Lavazza Coffee, the Italian coffee brand known for its quality and excellence.
-    Our coffee blends are crafted from the finest beans sourced from around the world. Indulge in the authentic taste of Italy 
-    with every cup. Whether you prefer espresso, cappuccino, or filter coffee, Lavazza offers a wide range of products to suit 
-    your taste.
+<img src="lavazza.jpg" alt="Lavazza Coffee " class="product-image">
+<br>  <a href="Details.html">View Larger Picture </a>
+
+           </td>
+
+      <td>  
+ 
+<h3>Lavazza Coffee </h3>
+<p>Experience the rich and aromatic flavors of Lavazza Coffee, the Italian coffee brand known for its quality and excellence. Our coffee blends are crafted from the finest beans sourced from around the world. Indulge in the authentic taste of Italy with every cup. Whether you prefer espresso, cappuccino, or filter coffee, Lavazza offers a wide range of products to suit your taste.
 </p>
           <tr><td> <td> <ul>
                 <li>Stainless steel blade and basket</li>
@@ -118,7 +159,7 @@ text-align: left;
                 <li>5200 RPM</li>
                 <li>15-year warranty</li>
                 <li>250 watts</li>
-            </ul></td></td>
+            </ul></td>
 </tr>
         
 </table>
