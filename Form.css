@@ -18,7 +18,8 @@ h2 a {
         }
 
 form {
-    background-color: #fff;
+   
+    background-color: #d3d3d3; 
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 5px;
@@ -63,7 +64,9 @@ input[type="text"], input[type="radio"] {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    vertical-align: middle;
 }
+
 button {
     background-color: #000080;
     color: #fff;
