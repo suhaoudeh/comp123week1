@@ -37,6 +37,7 @@ label {
 }
 
 input[type="text"] {
+    
     width: 30%;
     padding: 8px;
     margin-top: 5px;
@@ -53,7 +54,15 @@ input[type="text"]:focus {
 input[type="radio"] {
     margin-right: 10px;
 }
-
+input[type="text"], input[type="radio"] {
+    display: inline-block; /* Keep input elements on the same line */
+    width: auto; /* Allow input fields to auto-adjust size */
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 button {
     background-color: #000080;
     color: #fff;
