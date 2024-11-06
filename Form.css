@@ -37,12 +37,17 @@ label {
 }
 
 input[type="text"] {
-    width: 40%;
+    width: 30%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+input[type="text"]:focus {
+    border-color: #000080; /* Blue border when typing */
+    background-color: #e6f0ff; /* Light blue background when typing */
+    outline: none; /* Remove the default outline */
 }
 
 input[type="radio"] {
