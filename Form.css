@@ -80,3 +80,10 @@ button {
 button:hover {
     background-color: #003366;
 }
+
+#show-thank-you:checked ~ #thank-you-message {
+            display: block;
+        }
+        #show-thank-you:checked ~ form {
+            display: none;
+        }
